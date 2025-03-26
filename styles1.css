@@ -1,0 +1,121 @@
+/* General Page Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f8ff; /* Light Blue */
+    color: #333;
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Headings */
+h1 {
+    color: #ff6347; /* Tomato */
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Ordered List with Background */
+ol {
+    background: #fff5ee; /* Misty Rose */
+    padding: 15px;
+    border-radius: 10px;
+    border-left: 5px solid #ff4500; /* Orange Red */
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Table Headers */
+th {
+    background: #008080; /* Teal */
+    color: white;
+    padding: 12px;
+    font-size: 18px;
+}
+
+/* Table Cells */
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background: #e0ffff; /* Light Cyan */
+}
+
+/* Image Styling */
+img {
+    display: block;
+    margin: 15px auto;
+    max-width: 80%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Container */
+form {
+    background: #ffebcd; /* Blanched Almond */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    max-width: 450px;
+    margin: auto;
+}
+
+/* Form Labels */
+label {
+    font-weight: bold;
+    display: block;
+    margin: 10px 0 5px;
+    color: #ff4500; /* Orange Red */
+}
+
+/* Form Inputs */
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Checkbox & Radio Styling */
+input[type="radio"], input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+/* Submit Button */
+input[type="submit"] {
+    background: #32cd32; /* Lime Green */
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background: #228b22; /* Forest Green */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    
+    table, form {
+        width: 100%;
+    }
+}
